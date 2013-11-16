@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>processhacker.portable</id>
+    <version>2.31.0</version>
+    <title>Process Hacker (Portable)</title>
+    <authors>Wen Jia Liu</authors>
+    <owners>KidFashion</owners>
+    <projectUrl>http://processhacker.sourceforge.net/</projectUrl>
+    <iconUrl>http://processhacker.sourceforge.net/img/logo_64x64.png</iconUrl>
+<licenseUrl>http://svn.code.sf.net/p/processhacker/code/2.x/trunk/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware.</description>
+	<!--<summary>XMLStarlet is a set of command line utilities (tools) which can be used to transform, query, validate, and edit XML documents and files using simple set of shell commands in similar way it is done for plain text files using UNIX grep, sed, awk, diff, patch, join, etc commands.</summary>-->
+	<releaseNotes><![CDATA[Process Hacker 2.32 (31st of October 2013)
+New and Improved:
+* Updated for Windows 8.1
+* Added progress display for thread stacks
+* Updated ExtendedServices plugin:
+- Added new trigger data types
+* Updated NetworkTools plugin:
+- Updated UI
+* Updated OnlineChecks plugin:
+- Added file analyzed prompt
+Fixed:
+* Fixed handling of long symbol names
+* Fixed Run As preventing Windows 8 apps from starting
+* Fixed console host information for Windows 8.1
+* Fixed reflected processes not terminating on Windows 8.1
+* Fixed CPU frequency on Windows 8.1]]></releaseNotes>
+    <tags>sourceforge processhacker process taskmgr debug tool</tags>
+  </metadata>
+</package>
