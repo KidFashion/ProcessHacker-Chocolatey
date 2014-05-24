@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>processhacker.portable</id>
+    <id>processhacker.install</id>
     <version>2.33.0</version>
-    <title>Process Hacker (Portable)</title>
+    <title>Process Hacker (Install)</title>
     <authors>Wen Jia Liu</authors>
     <owners>KidFashion</owners>
     <projectUrl>http://processhacker.sourceforge.net/</projectUrl>
