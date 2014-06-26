@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>processhacker</id>
-    <version>2.31.0</version>
+    <version>2.33.0</version>
     <title>Process Hacker</title>
     <authors>Wen Jia Liu</authors>
     <owners>KidFashion</owners>
@@ -13,25 +13,23 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware.</description>
 	<!--<summary>XMLStarlet is a set of command line utilities (tools) which can be used to transform, query, validate, and edit XML documents and files using simple set of shell commands in similar way it is done for plain text files using UNIX grep, sed, awk, diff, patch, join, etc commands.</summary>-->
-	<releaseNotes><![CDATA[Process Hacker 2.32 (31st of October 2013)
+	<releaseNotes><![CDATA[Process Hacker 2.33 (27th of December 2013)
 New and Improved:
-* Updated for Windows 8.1
-* Added progress display for thread stacks
-* Updated ExtendedServices plugin:
-- Added new trigger data types
-* Updated NetworkTools plugin:
-- Updated UI
-* Updated OnlineChecks plugin:
-- Added file analyzed prompt
+* View digital signature information from process properties and peview
+* Signatures for Windows 8 apps are now detected
+* Improved file, key, process and thread handle properties
+* Added DPI Awareness column
+* Added new Windows 8.1 process protection information
+* KProcessHacker is no longer needed for highlighting of GUI threads
+* Added suspend count for threads on Windows 8.1
+* Updated DotNetTools plugin:
+  - Improved .NET assembly enumeration timeout handling
 Fixed:
-* Fixed handling of long symbol names
-* Fixed Run As preventing Windows 8 apps from starting
-* Fixed console host information for Windows 8.1
-* Fixed reflected processes not terminating on Windows 8.1
-* Fixed CPU frequency on Windows 8.1]]></releaseNotes>
+* Service start type and error control are never updated if modified outside of Process Hacker
+]]></releaseNotes>
     <tags>sourceforge processhacker process taskmgr debug tool</tags>
     <dependencies>
-      <dependency id="processhacker.portable" version="[2.31.0]" />
+      <dependency id="processhacker.portable" version="[2.33.0]" />
     </dependencies>
   </metadata>
 </package>
