@@ -29,7 +29,7 @@ Fixed:
 ]]></releaseNotes>
     <tags>sourceforge processhacker process taskmgr debug tool</tags>
     <dependencies>
-      <dependency id="processhacker.portable" version="[2.33.0]" />
+      <dependency id="processhacker.install" version="[2.33.0]" />
     </dependencies>
   </metadata>
 </package>

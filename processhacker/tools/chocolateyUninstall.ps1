@@ -1,1 +1,1 @@
-﻿write-host -backgroundColor Red "NOTICE: Uninstall also processhacker.portable package with command 'CUNINST processhacker.portable' to complete uninstall"
+﻿write-host -backgroundColor Yellow "NOTICE: Uninstall also processhacker.install package with command 'CUNINST processhacker.install' to complete uninstall"
